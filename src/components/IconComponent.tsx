@@ -21,7 +21,7 @@ import {
   Video,
   Calculator,
   PiggyBank,
-  Agriculture
+  Leaf
 } from "lucide-react";
 
 // Map of interest names to their respective Lucide icons
@@ -38,7 +38,7 @@ const iconMap: Record<string, LucideIcon> = {
   "Teknik": Hammer,
   "Kreatif": Lightbulb,
   "Keuangan": PiggyBank,
-  "Pertanian": Agriculture,
+  "Pertanian": Leaf,
   // Fallback icon
   "default": Book
 };
