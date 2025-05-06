@@ -12,6 +12,7 @@ interface ResultsState {
   description: string;
   interest: Interest;
   talent: Talent;
+  name?: string; // Added name field
 }
 
 const ResultsPage = () => {
@@ -40,7 +41,7 @@ const ResultsPage = () => {
           <div className="max-w-4xl mx-auto">
             <div className="bg-expert-blue text-white p-8 rounded-lg shadow-lg mb-10">
               <h1 className="text-3xl font-bold mb-4 text-center">
-                Rekomendasi Profesi untuk Anda
+                Rekomendasi Profesi untuk {state.name || "Anda"}
               </h1>
               
               <div className="flex flex-col md:flex-row md:justify-center gap-4 mb-6 text-center">
