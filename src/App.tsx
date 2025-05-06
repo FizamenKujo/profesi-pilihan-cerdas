@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import RecommendationForm from "./pages/RecommendationForm";
 import ResultsPage from "./pages/ResultsPage";
 import ProfessionCatalog from "./pages/ProfessionCatalog";
+import FlowchartPage from "./pages/FlowchartPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/recommendation" element={<RecommendationForm />} />
           <Route path="/results" element={<ResultsPage />} />
           <Route path="/catalog" element={<ProfessionCatalog />} />
+          <Route path="/flowchart" element={<FlowchartPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

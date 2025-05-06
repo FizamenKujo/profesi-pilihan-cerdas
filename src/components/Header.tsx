@@ -16,6 +16,9 @@ const Header = () => {
           <Link to="/recommendation" className="hover:text-expert-accent transition-colors">
             Rekomendasi
           </Link>
+          <Link to="/flowchart" className="hover:text-expert-accent transition-colors">
+            Alur Sistem
+          </Link>
           <Link to="/catalog" className="hover:text-expert-accent transition-colors">
             Katalog Profesi
           </Link>
